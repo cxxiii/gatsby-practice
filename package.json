@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-practice",
+  "description": "For learning Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run dev",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "gatsby": "^2.26.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "prettier": "^2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cxxiii/gatsby-practice"
+  }
+}
